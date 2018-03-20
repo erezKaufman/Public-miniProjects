@@ -1,0 +1,65 @@
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+.unhidden {
+    display: block;
+    visibility: visible;
+
+}
+#overlayId {
+    /*display: none;*/
+    /*overflow-y: inherit;*/
+    position: absolute;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+#searchWindowId{
+    background-color: rgba(204, 204, 204, 0.99);
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #e4e4e4;
+    width: 80%;
+    height: 250px;
+    overflow-y: auto;
+}
+
+.closeButton{
+    color: #aaaaaa;
+    position: inherit;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.closeButton:hover,
+.closeButton:focus{
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*.subList,*/
+  #guidesList{
+      list-style-type:none;
+}
+
+#guideName{
+    cursor: pointer;
+    color: blue;
+    text-underline-mode: 1%;
+}
+
+#searchBox{
+    -webkit-border-radius: 10px; //For Safari, etc.
+    -moz-border-radius: 10px; //For Mozilla, etc.
+    border-radius: 10px; //CSS3 Feature
+}
